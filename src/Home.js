@@ -10,7 +10,7 @@ let generalStyle = {
   }
 let x = window.innerWidth
 
-let widthx = x/7.44
+let widthx = x/20
 
 
 export default function Home () {
