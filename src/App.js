@@ -1,11 +1,11 @@
-import {BrowserRouter, Route, Routes } from 'react-router-dom';
+import {BrowserRouter, HashRouter, Route, Routes } from 'react-router-dom';
 import CompetencyPage from './competency.js';
 import Home from './Home.js';
 
 export default function App() {
   return (
     <>
-<BrowserRouter>
+<HashRouter>
 <Routes>
 <Route
     exact path ="/" 
@@ -18,7 +18,7 @@ export default function App() {
     </Route>
   </Routes>
  
-  </BrowserRouter>
+  </HashRouter>
  
   </>
   

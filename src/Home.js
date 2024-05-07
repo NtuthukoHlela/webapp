@@ -14,7 +14,7 @@ export default function Home () {
     return (
 <>
 <Helmet>  
-  <title>X</title>
+  <title>Home</title>
   </Helmet>   
 
 <h1 style= {generalStyle}> <b> Home Page </b> </h1>
