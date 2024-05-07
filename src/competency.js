@@ -7,6 +7,9 @@ let generalStyle = {
     textAlign: "center"
   }
 
+let x = window.innerWidth
+let widthx = x/20
+
 export default function competencyPage () {
 
     return (
@@ -19,7 +22,7 @@ export default function competencyPage () {
 
 <h1 style= {generalStyle}> <b> Becoming competent </b> </h1>
 
-<div style={{textAlign: "justify", paddingRight:200, paddingLeft: 200}}>
+<div style={{textAlign: "justify", paddingRight:widthx, paddingLeft: widthx}}>
 
  <p>  This article aims to outline concrete ways of approaching the road to competency. 
 I have always been curious, knowing more excites me, I see competency as the ultimate success. Knowing how to do something thoroughly and expertly is not only a positive locally (people pay you), but it is also beneficial at a societal level (you solve real problems). This raises the question of, how one becomes competent. Below, I list routines/techniques/practices that make learning/working easier/faster, at least for me.   
