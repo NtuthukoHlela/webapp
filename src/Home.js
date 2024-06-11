@@ -3,6 +3,7 @@ import { Link } from "react-router-dom"
 
 
 
+
   let x = window.innerWidth
   let widthx = x/20
   
@@ -29,6 +30,13 @@ Ntuthuko Hlela
 <h4 style={{paddingLeft: widthx, fontFamily: 'Fira Sans'}}> 1.
 <Link to='/Competency' > Competency </Link>
 </h4>
+
+<h4 style={{paddingLeft: widthx, fontFamily: 'Fira Sans'}}> 2.
+<Link to='/Python' > Python Bot  </Link>
+</h4>
+ 
+
+
 
 <div>
 
