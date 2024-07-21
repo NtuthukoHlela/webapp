@@ -3,3 +3,4 @@ export default function try_friend () {
     <h1> Hello friend </h1>
 );
 }
+

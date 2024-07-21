@@ -1,4 +1,4 @@
-import { Helmet } from "react-helmet"
+import { Helmet } from "react-helmet";
 
 let generalStyle = {
     color: "black",
@@ -7,20 +7,22 @@ let generalStyle = {
     textAlign: "center"
   }
 
+  let x = window.innerWidth
+  let widthx = x*(10/100)
+
 export default function competencyPage () {
 
     return (
-
-    
 <>
 
 <Helmet>  
-  <title>X</title>
+  <title>XX</title>
   </Helmet>   
 
-<h1 style= {generalStyle}> <b> Article Title </b> </h1>
 
-<div style={{textAlign: "justify", paddingRight:200, paddingLeft: 200}}>
+<h1 style= {generalStyle}> <b> XX </b> </h1>
+
+<div style={{textAlign: "justify", paddingRight:widthx, paddingLeft: widthx}}>
 
 
 </div>
