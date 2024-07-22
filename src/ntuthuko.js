@@ -80,27 +80,28 @@ Awards
 </p>
 
 <p>
-2. Four Deans Commendations  (2018 - 2021)
-</p>
-
-
-<p>
-3. Seven Economic Merit Certificates (2018  -2021)
+2. One of the top 10 students in the International Trade / Economics 2022-2023 Class - the University of Paris Pantheon Sorbonne (2022 - 2023)
 </p>
 
 <p>
-4. One of the top 10 students in the International Trade / Economics 2022-2023 Class - the University of Paris Pantheon Sorbonne (2022 - 2023)
+3. National Research Foundation Bursary (2021 - 2023)
 </p>
 
 <p>
-5. National Research Foundation Bursary (2021 - 2023)
+4. Seven Economic Merit Certificates (2018  -2021)
 </p>
+
+<p>
+5. Four Deans Commendations  (2018 - 2021)
+</p>
+
 <p>
 6. Rhodes Scholarship Finalist (KwaZulu Natal Constituency) (2021)
-
 </p>
-7. Golden Key International Honour Society Member  (2019 -  2021)
 
+<p>
+7. Golden Key International Honour Society Member  (2019 -  2021)
+</p>
 
 <p>
 8. Tubingen - South Africa Program - University of Tubingen  (2020)
