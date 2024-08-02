@@ -62,9 +62,12 @@ Ntuthuko Hlela <button > <Link to='/ntuthuko' style={{textDecoration: "none", co
 <h4 style={{paddingLeft: widthx, fontFamily: 'Fira Sans'}}> 2.
 <Link to='/Python' > Python Bot  </Link> - Creating a bot using the Difflib module.
 </h4>
-<div>
 
-</div>
+<h4 style={{paddingLeft: widthx, fontFamily: 'Fira Sans'}}> 3. 
+  <a href="https://play.google.com/store/apps/details?id=org.infact.myapp"> Infact </a>
+ - A simple app I created to keep my curiosity sated. It is only available on the Google Play Store. 
+</h4>
+<div></div>
 </>
 
     )}
