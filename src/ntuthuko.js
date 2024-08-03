@@ -61,7 +61,7 @@ Past Activities/Positions
 </p>
 
 <p>
-1.1. Master of Commerce in Economics - University of Paris Pantheon Sorbonne (Paris)  (1 Year Exchange program)
+1.1. Master of Commerce in Economics - University of Paris Pantheon Sorbonne (Paris, France)  (1 Year Exchange program)
 </p>
 
 <p>
