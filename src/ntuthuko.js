@@ -104,7 +104,7 @@ Awards
 </p>
 
 <p>
-8. Tubingen - South Africa Program - University of Tubingen  (2020)
+8. Tubingen - South Africa Program - University of Tubingen (Tubingen, Germany) (2020)
 </p>
 
 <p>
