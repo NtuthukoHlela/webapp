@@ -67,6 +67,11 @@ Ntuthuko Hlela <button > <Link to='/ntuthuko' style={{textDecoration: "none", co
   <a href="https://play.google.com/store/apps/details?id=org.infact.myapp"> Infact </a>
  - A simple app I created to keep my curiosity sated. It is only available on the Google Play Store. 
 </h4>
+
+<h4 style={{paddingLeft: widthx, fontFamily: 'Fira Sans'}}> 5.
+<Link to='/React Native Component' > React Component  </Link> - Dynamically creating React Components (a JavaScript library).
+</h4>
+
 <div></div>
 </>
 

@@ -10,23 +10,20 @@ let generalStyle = {
   let x = window.innerWidth
   let widthx = x*(10/100)
 
-export default function competencyPage () {
-
+export default function Ntuthuko () {
     return (
 <>
 
 <Helmet>  
-  <title>XX</title>
+  <title>Ntuthuko Hlela</title>
   </Helmet>   
 
 
-<h1 style= {generalStyle}> <b> XX </b> </h1>
+<h2 style= {generalStyle}> Ntuthuko Hlela (pronounced: Ntu-thu-ko) </h2>
 
 <div style={{textAlign: "justify", paddingRight:widthx, paddingLeft: widthx}}>
 
 
 </div>
 </>
-
-    )}
-
+)}
