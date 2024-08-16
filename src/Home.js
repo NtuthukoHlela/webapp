@@ -69,7 +69,7 @@ Ntuthuko Hlela <button > <Link to='/ntuthuko' style={{textDecoration: "none", co
 </h4>
 
 <h4 style={{paddingLeft: widthx, fontFamily: 'Fira Sans'}}> 5.
-<Link to='/React Native Component' > React Component  </Link> - Dynamically creating React Components (a JavaScript library).
+<Link to='/React Native Component' > Dynamically creating React Native Components </Link> - An efficient way of creating multiple components in React Native.
 </h4>
 
 <div></div>

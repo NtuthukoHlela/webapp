@@ -31,7 +31,7 @@ needing to do this in multiple parts of the program that I am currently creating
 find an out-of-the-box solution – which then led me to design the logic from scratch. </p>
 
 <p> I will mainly focus on creating a Chip – which is a component from the <a href="https://callstack.github.io/react-native-paper/docs/components/Chip/"> 
-react-native-paper</a>. You can think of this component as a button. 
+react-native-paper library</a>. You can think of this component as a button. 
 </p>
 
 <p>
@@ -39,10 +39,10 @@ For simplicity, instead of showing the whole program that I am creating, I have 
  generate the components dynamically. More specifically, the script’s goal is to enable one to log hours of the
   workday at which they will be available/unavailable. See the video below for a visual description of what the
    code aims to do <b>(the full code is at the end of the article)</b>. Please note that I am assuming that the reader already knows how to set up a React Native App 
-   and have at least working knowledge of JavaScript. If not, see <a href="https://reactnative.dev/"> React Native Website </a>.
+   and have at least working knowledge of JavaScript. If not, see the <a href="https://reactnative.dev/"> React Native Website</a>.
 </p>
 
-    <video src = {video} style={{width: widthx*4,  paddingRight:widthx, paddingLeft: widthx}} controls> 
+    <video src = {video} style={{width: widthx*8}} controls> 
     </video>
 
 
