@@ -68,7 +68,7 @@ Ntuthuko Hlela <button > <Link to='/ntuthuko' style={{textDecoration: "none", co
  - A simple app I created to keep my curiosity sated. It is only available on the Google Play Store. 
 </h4>
 
-<h4 style={{paddingLeft: widthx, fontFamily: 'Fira Sans'}}> 5.
+<h4 style={{paddingLeft: widthx, fontFamily: 'Fira Sans'}}> 4.
 <Link to='/React Native Component' > Dynamically creating React Native Components </Link> - An efficient way of creating multiple components in React Native.
 </h4>
 
