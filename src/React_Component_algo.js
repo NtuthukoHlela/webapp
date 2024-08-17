@@ -116,7 +116,7 @@ The second conditional statement is literally the mirror of the previous stateme
 
     <h4>Full code</h4>
 
-    <pre style= {{fontFamily: "monospace", backgroundColor: "white"}}> 
+    <pre style= {{fontFamily: "monospace", overflow: "scroll", backgroundColor: "white"}}> 
       {`import {View,  StyleSheet, ScrollView } from "react-native"
 import { useState } from "react"
 import {Chip, Card, Text} from 'react-native-paper'
