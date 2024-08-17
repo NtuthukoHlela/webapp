@@ -52,7 +52,7 @@ The rise of artificial intelligence has inspired a lot of programmers to create 
 <h4> Import the required modules </h4>
 
 <div style={{backgroundColor: "lightgray", color: "black"}}>  
-<pre style= {{fontFamily: "monospace"}}> {`
+<pre style= {{fontFamily: "monospace", overflow: "scroll"}}> {`
   import difflib
   import json
 
@@ -76,7 +76,7 @@ The rise of artificial intelligence has inspired a lot of programmers to create 
 </p>
 
 <div style={{backgroundColor: "lightgray", color: "black"}}>
-<pre style= {{fontFamily: "monospace"}}> {`
+<pre style= {{fontFamily: "monospace", overflow: "scroll"}}> {`
   {"Data": [
     {
       "question": "Hey",
@@ -98,7 +98,7 @@ The rise of artificial intelligence has inspired a lot of programmers to create 
 <p> <b> Creating a function that pulls data from the JSON file: </b> </p>
 
 <div style={{backgroundColor: "lightgray", color: "black"}}>
-<pre style= {{fontFamily: "monospace"}}> {`
+<pre style= {{fontFamily: "monospace", overflow: "scroll"}}> {`
   # pulling the json file where we will store our dataset
   def pulling_data(file_path):
       with open(file_path, 'r') as file_read:
@@ -116,7 +116,7 @@ The rise of artificial intelligence has inspired a lot of programmers to create 
   </p>
 
   <div style={{backgroundColor: "lightgray", color: "black"}}>
-  <pre style= {{fontFamily: "monospace"}}> {`
+  <pre style= {{fontFamily: "monospace", overflow: "scroll"}}> {`
   # this functions writes the json file when the user inputs 
   # a question/answer
   def teaching_model(database, file_path):
@@ -130,7 +130,7 @@ The rise of artificial intelligence has inspired a lot of programmers to create 
 
   <div style={{backgroundColor: "lightgray", color: "black"}}>
 
-  <pre style= {{fontFamily: "monospace"}}> {`
+  <pre style= {{fontFamily: "monospace", overflow: "scroll"}}> {`
   #importing the data and then storing it in a list
   database = pulling_data("jpal.json")
   list_data =  []
@@ -148,7 +148,7 @@ the bot will be trying to match the questions in the database with the question 
 
 
 
-<div style={{backgroundColor: "lightgray", color: "black"}}>
+<div style={{backgroundColor: "lightgray", overflow: "scroll", color: "black"}}>
 <pre> {`
 while True:
 try:
@@ -201,7 +201,7 @@ questions in the database is the second parameter. This is followed by the n, wh
 </p>
 
 <h4>Full code: </h4>
-<div style={{backgroundColor: "lightgray", color: "black"}}>
+<div style={{backgroundColor: "lightgray", color: "black", overflow: "scroll"}}>
   <pre>{`
 #Imports
 import difflib
