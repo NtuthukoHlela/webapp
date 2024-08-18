@@ -26,7 +26,7 @@ export default function Ntuthuko () {
 
  <p>
 The purpose of this article is to demonstrate how to create React Native Components dynamically. 
-By this, I mean creating components based on given data instead of hardcoding them. I found myself 
+By this I mean creating components based on given data instead of hardcoding them. I found myself 
 needing to do this in multiple parts of the program that I am currently creating, and I could not 
 find an out-of-the-box solution – which then led me to design the logic from scratch. </p>
 
@@ -78,7 +78,7 @@ I want to render chips dynamically based on the elements in an array. To achieve
 
 <p> 
 I then push “close” to the status array. This is for the chip icon property. The "close" will be the default value of the icon 
-(this will render a small 'x'). One might argue that I should have just created a string instead of an array of strings. Doing make the 
+(this will render a small 'x'). One might argue that I should have just created a string instead of an array of strings. Doing this makes the 
 chip icon states' homogenous – which is the very thing we are trying to avoid.</p>
 
 <p>   
