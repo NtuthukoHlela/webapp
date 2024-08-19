@@ -13,17 +13,18 @@ import { useState } from "react"
 
 export default function Home () {
  let [quote, setQuote] = useState(" for a programming quote.")
+ let [press, setPress] = useState("Press")
 
  function programming_quote () {
   axios.get('https://programming-quotesapi.vercel.app/api/random')
-  .then(function (response)  {
+  .then((response)  => {
     let response1 = response
     let author = response1['data'].author
     let quote = response1['data'].quote
+    setPress("Next")
     setQuote(` ${quote}  (${author})`)
      
 
-    //console.log(y)
 })
 }
 
@@ -48,7 +49,7 @@ Ntuthuko Hlela <button > <Link to='/ntuthuko' style={{textDecoration: "none", co
  <button onClick= {() =>
   programming_quote ()
 
-        }> Press  </button>
+        }> {press}  </button>
           {quote}
 </p>
         <hr/>
