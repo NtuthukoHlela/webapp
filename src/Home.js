@@ -2,7 +2,7 @@ import { Helmet } from "react-helmet"
 import { Link } from "react-router-dom"
 import React from "react"
 import axios from "axios"
-import { useState } from "react"
+import { useState, useEffect } from "react"
 
   let x = window.innerWidth
   let widthx = x*(10/100)
@@ -14,6 +14,8 @@ import { useState } from "react"
 export default function Home () {
  let [quote, setQuote] = useState(" for a programming quote.")
  let [press, setPress] = useState("Press")
+
+
 
  function programming_quote () {
   axios.get('https://programming-quotesapi.vercel.app/api/random')
@@ -56,22 +58,29 @@ Ntuthuko Hlela <button > <Link to='/ntuthuko' style={{textDecoration: "none", co
  
 
 
-<h4 style={{paddingLeft: widthx, fontFamily: 'Fira Sans'}}> 1.
+  <h4 style={{paddingLeft: widthx, fontFamily: 'Fira Sans'}}> 1.
+<a href="https://www.wider.unu.edu/publication/tax-financing-options-new-social-protection-instruments"> 
+Tax financing options for new social protection instruments </a>  -  <a href="https://www.linkedin.com/in/maya-goldman-2226a019/" > Maya Goldman </a>  and Ntuthuko Hlela 
+</h4>
+
+
+<h4 style={{paddingLeft: widthx, fontFamily: 'Fira Sans'}}> 2.
 <Link to='/Competency' > Competency </Link>  - My approach to competency.
 </h4>
 
-<h4 style={{paddingLeft: widthx, fontFamily: 'Fira Sans'}}> 2.
+<h4 style={{paddingLeft: widthx, fontFamily: 'Fira Sans'}}> 3.
 <Link to='/Python' > Python Bot  </Link> - Creating a bot using the Difflib module.
 </h4>
 
-<h4 style={{paddingLeft: widthx, fontFamily: 'Fira Sans'}}> 3. 
+<h4 style={{paddingLeft: widthx, fontFamily: 'Fira Sans'}}> 4. 
   <a href="https://play.google.com/store/apps/details?id=org.infact.myapp"> Infact </a>
  - A simple app I created to keep my curiosity sated. It is only available on the Google Play Store. 
 </h4>
 
-<h4 style={{paddingLeft: widthx, fontFamily: 'Fira Sans'}}> 4.
+<h4 style={{paddingLeft: widthx, fontFamily: 'Fira Sans'}}> 5.
 <Link to='/React Native Component' > Dynamically creating React Native Components </Link> - An efficient way of creating multiple components in React Native.
 </h4>
+
 
 <div></div>
 </>
