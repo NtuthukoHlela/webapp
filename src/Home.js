@@ -1,3 +1,6 @@
+// npm start ===> local host 
+//npm run deploy ===> to deploy to Github pages 
+
 import { Helmet } from "react-helmet"
 import { Link } from "react-router-dom"
 import React from "react"
@@ -80,6 +83,27 @@ Tax financing options for new social protection instruments </a>  -  <a href="ht
 <h4 style={{paddingLeft: widthx, fontFamily: 'Fira Sans'}}> 5.
 <Link to='/React Native Component' > Dynamically creating React Native Components </Link> - An efficient way of creating multiple components in React Native.
 </h4>
+
+<h4 style={{paddingLeft: widthx, fontFamily: 'Fira Sans'}}> 6.
+<a href="https://mbrg.bsg.ox.ac.uk/sites/default/files/2022-11/SRD-granttargetingjobsearch_0.pdf"> 
+Proposal for the extension, redesign and repurposing of the SRD for the  twin goals of poverty and  unemployment reduction </a>
+
+  -  <a href="https://www.linkedin.com/in/kate-orkin-853a0665/" > Kate Orkin </a>,
+  <a href="https://www.linkedin.com/in/maya-goldman-2226a019/" > Maya Goldman </a>,
+  <a href="https://www.linkedin.com/in/brynde-kreft-170090196/" > Brynde Kreft </a>,
+  Desmond Fairal,
+  <a style = {{marginLeft: 5}} href="https://www.linkedin.com/in/alice-cahill-22a0671b4/" > Alice Cahill </a>,
+Ntuthuko Hlela,
+<a href="https://mbrg.bsg.ox.ac.uk/person/aliya-chikte#:~:text=Aliya%20is%20a%20Research%20Associate%20at%20J-PAL" > Aliya Chikte </a>,
+<a href="https://www.linkedin.com/in/ingrid-woolard-bba27244/" > Ingrid Woolard </a> and
+<a href="https://www.linkedin.com/in/murray-leibbrandt-36416513/" > Murray Leibbrandt </a>
+
+
+
+</h4>
+
+
+
 
 
 <div></div>
