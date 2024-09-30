@@ -46,9 +46,9 @@ Ntuthuko Hlela <button > <Link to='/ntuthuko' style={{textDecoration: "none", co
 
 <h4 style={{textAlign: "justify", paddingRight: widthx, paddingLeft: widthx, fontFamily: 'Fira Sans'}}> 
 
-      I like being at the forefront of research, being deeply engaged in meaningful and practical work makes me happy!
-        Therefore, this website will mainly focus on research and tech tools that I find interesting.
-        I also like life hacks that make me more productive, effective and efficient, so, I will also be writing about these.
+      I like being at the forefront of research, being deeply engaged in meaningful and practical work makes me happy.
+      Also, I love coding!
+       
 </h4>
 <p style={{textAlign: "justify", paddingRight: widthx, paddingLeft: widthx, fontFamily: 'Fira Sans'}}> 
  <button onClick= {() =>
