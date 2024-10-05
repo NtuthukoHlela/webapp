@@ -11,7 +11,7 @@ let generalStyle = {
   let widthx = x*(10/100)
 
   let y = window.innerHeight
-  let heighty = y*(0.05)
+  let heighty = y*(0.04)
 
 
 export default function competencyPage () {

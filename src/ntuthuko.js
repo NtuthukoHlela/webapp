@@ -11,13 +11,13 @@ let generalStyle = {
   let widthx = x*(10/100)
 
   let y = window.innerHeight
-  let heighty = y*(0.05)
+  let heighty = y*(0.04)
 
 
 export default function Ntuthuko () {
     return (
 <>
-<header style = {{backgroundColor: 'black', color: 'white', height: heighty, margin: 5, fontFamily: 'Fira Sans'}}> <a href = "https://ntuthukohlela.github.io/webapp/#/" style={{margin: 8, color: 'white', textDecoration: 'none'}}> cd ..</a> </header>
+<header style = {{backgroundColor: 'black', color: 'white', height: heighty, margin: 5, fontFamily: 'Fira Sans'}}> <a href = "https://ntuthukohlela.github.io/webapp/#/" style={{margin: 8, color: 'white', textDecoration: 'none'}}>cd ..</a> </header>
 
 
 <Helmet>  
