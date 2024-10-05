@@ -11,6 +11,10 @@ let generalStyle = {
   let x = window.innerWidth
   let widthx = x*(10/100)
 
+  let y = window.innerHeight
+  let heighty = y*(0.05)
+
+
 export default function Ntuthuko () {
     return (
 <>
@@ -18,6 +22,9 @@ export default function Ntuthuko () {
 <Helmet>  
   <title>React Native Components</title>
 </Helmet>   
+
+<header style = {{backgroundColor: 'black', color: 'white', height: heighty, margin: 5, fontFamily: 'Fira Sans'}}> <a href = "https://ntuthukohlela.github.io/webapp/#/" style={{margin: 8, color: 'white', textDecoration: 'none'}}> cd ..</a> </header>
+
 
 
  <h2 style  = {generalStyle}> Dynamically Creating React Native Components </h2>

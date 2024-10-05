@@ -10,6 +10,10 @@ let generalStyle = {
   let x = window.innerWidth
   let widthx = x*(10/100)
 
+  let y = window.innerHeight
+  let heighty = y*(0.05)
+
+
 export default function competencyPage () {
 
     return (
@@ -18,6 +22,8 @@ export default function competencyPage () {
 <Helmet>  
   <title>Competency</title>
   </Helmet>   
+
+  <header style = {{backgroundColor: 'black', color: 'white', height: heighty, margin: 5, fontFamily: 'Fira Sans'}}> <a href = "https://ntuthukohlela.github.io/webapp/#/" style={{margin: 8, color: 'white', textDecoration: 'none'}}> cd ..</a> </header>
 
 
 <h1 style= {generalStyle}> <b> Becoming competent </b> </h1>
