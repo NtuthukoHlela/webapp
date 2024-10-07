@@ -62,6 +62,8 @@ I like being at the forefront of research, and being deeply engaged in technical
         <hr/> 
  <h1 style={{paddingLeft: widthx, fontFamily: 'Fira Sans', color: 'GrayText'}}>2024</h1>
 
+
+
   <h4 style={{paddingLeft: widthx, fontFamily: 'Fira Sans'}}> 1.
 <a href="https://sa-tied.wider.unu.edu/article/does-south-africas-srd-grant-need-a-major-overhaul"> 
 Does South Africa's SRD grant need a major overhaul? </a>  -  
@@ -101,8 +103,8 @@ Proposal for the extension, redesign and repurposing of the SRD for the  twin go
 
   -  <a href="https://www.linkedin.com/in/kate-orkin-853a0665/" > Kate Orkin </a>,
   <a href="https://www.linkedin.com/in/maya-goldman-2226a019/" > Maya Goldman </a>,
-  <a href="https://www.linkedin.com/in/brynde-kreft-170090196/" > Brynde Kreft </a>,
-  Desmond Fairal,
+  <a href="https://www.linkedin.com/in/brynde-kreft-170090196/" > Brynde Kreft, </a> Desmond Fairal,
+  
   <a style = {{marginLeft: 5}} href="https://www.linkedin.com/in/alice-cahill-22a0671b4/" > Alice Cahill </a>,
 Ntuthuko Hlela,
 <a href="https://mbrg.bsg.ox.ac.uk/person/aliya-chikte#:~:text=Aliya%20is%20a%20Research%20Associate%20at%20J-PAL" > Aliya Chikte </a>,
@@ -112,7 +114,6 @@ Ntuthuko Hlela,
 
 
 </h4>
-
 
 
 
