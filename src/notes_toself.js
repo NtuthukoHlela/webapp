@@ -21,11 +21,11 @@ export default function Notes () {
 
 
 <Helmet>  
-  <title>Notes</title>
+  <title>Principles</title>
   </Helmet>   
 
 
-<h2 style= {generalStyle}> Life Lessons: Notes to Myself  </h2>
+<h2 style= {generalStyle}> Principles: Things to Remember   </h2>
 
 <div style={{textAlign: "justify", paddingRight:widthx, paddingLeft: widthx}}>
 <ul>
@@ -33,15 +33,14 @@ export default function Notes () {
 <li> Do not be too busy for everything. </li>
 <li> Do hard things, be brave. </li>
 <li> Sometimes you just have to deal with the cards you are  dealt, make them work. </li>
-<li> Embarrassment and failure are part of life, especially when striving for excellence. Embrace these experiences, don’t take them too personally, and learn to be comfortable with them. Either try again or move on to a better solution—just don’t give up. </li>
 <li> When creating algorithms, try to code as many checks and balances as possible in order to increase your confidence in the program's output.  </li>
-<li> Always take the soft coding route (instead of hard coding stuff). The former is indeed harder than the latter but it minimizes the number of bugs. This is definitely the case for large codebases </li>
-<li> Once you get tired of coding, take a break. The additional code written in this state is often of lower quality.  </li>
-<li>Once you start copying and pasting your code, there is a scope for a loop/automation.  </li>
+<li> Always take the soft coding route (instead of hard coding stuff). The former is indeed harder than the latter but it minimizes the number of bugs. This is definitely the case for large codebases. </li>
+<li> Once you get tired of coding, take a break. Any additional code written in this state is often of lower quality.  </li>
+<li>Once you start copying and pasting your code, there is a scope for a loop/function.  </li>
 <li>Always strive to make your code lean and simple. Be clear in your documentation, it always helps. Always.  </li>
 <li> Measure 'hard work' by the tasks you complete, not just by the time you spend working.  </li>
 <li>It’s better to actually try something than to spend a lot of time thinking about it. Tinker with things. Hack things. </li>
-<li>Sometimes the best way to solve an algorithm problem is to use a completely different approach/algorithm. </li>
+<li>Sometimes the best way to solve an algorithmic problem is to use a completely different approach/algorithm. </li>
 <li>When your code does not run, always read the error message first. It's astonishing how often coders (myself included) attempt to debug before doing so.   </li>
 <li>Have a goal, aim at something specific.</li>
 <li>Do what makes you like and respect yourself, not just what you enjoy.</li>

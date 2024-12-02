@@ -1,6 +1,6 @@
 // npm start ===> local host 
 //npm run deploy ===> to deploy to Github pages 
-
+// Quote: Nothing is as permanent as a temporary solution that works
 import { Helmet } from "react-helmet"
 import { Link } from "react-router-dom"
 import React from "react"
@@ -9,9 +9,10 @@ import { useState, useEffect } from "react"
 
   let x = window.innerWidth
   let widthx = x*(10/100)
+  let widthz = x*0.074
 
   let y = window.innerHeight
-  let heighty = y*(0.05)
+  let heighty = y*(0.4)
   
 
 
@@ -60,44 +61,69 @@ I like being at the forefront of research, and being deeply engaged in technical
           {quote}
 </p>
         <hr/> 
+  
  <h1 style={{paddingLeft: widthx, fontFamily: 'Fira Sans', color: 'GrayText'}}>2024</h1>
 
 
+<div style={{paddingLeft: widthx, fontFamily: 'Fira Sans'}}>
 
-  <h4 style={{paddingLeft: widthx, fontFamily: 'Fira Sans'}}> 1.
-<a href="https://sa-tied.wider.unu.edu/article/does-south-africas-srd-grant-need-a-major-overhaul"> 
-Does South Africa's SRD grant need a major overhaul? </a>  -  
-<a href="https://www.linkedin.com/in/maya-goldman-2226a019/" > Maya Goldman </a>,
-  <a href="https://www.linkedin.com/in/brynde-kreft-170090196/" > Brynde Kreft </a> and Ntuthuko Hlela
+
+<h4> 1.{` `}
+<a href="https://www.afd.fr/sites/afd/files/2024-09-12-18-30/SRD_extension_redesign_and_repurposing_for_poverty_reduction.pdf"> 
+Proposal for the extension, redesign and repurposing of the SRD for the  twin goals of poverty and  unemployment reduction (Second Version) </a>
+
+  -  <a href="https://www.linkedin.com/in/kate-orkin-853a0665/" > Kate Orkin </a>,
+  <a href="https://www.linkedin.com/in/maya-goldman-2226a019/" > Maya Goldman </a>,
+  <a href="https://www.linkedin.com/in/brynde-kreft-170090196/" > Brynde Kreft, </a> Desmond Fairal,
+  
+  <a style = {{marginLeft: 5}} href="https://www.linkedin.com/in/alice-cahill-22a0671b4/" > Alice Cahill </a>,
+Ntuthuko Hlela,
+<a href="https://mbrg.bsg.ox.ac.uk/person/aliya-chikte#:~:text=Aliya%20is%20a%20Research%20Associate%20at%20J-PAL" > Aliya Chikte </a>,
+<a href="https://www.linkedin.com/in/ingrid-woolard-bba27244/" > Ingrid Woolard </a> and
+<a href="https://www.linkedin.com/in/murray-leibbrandt-36416513/" > Murray Leibbrandt </a>
 </h4>
 
-  <h4 style={{paddingLeft: widthx, fontFamily: 'Fira Sans'}}> 2.
+
+ <h4>2.{` `} 
+<Link to='/Notes' > Principles </Link>  - Things to remember
+</h4>
+
+
+
+<h4 >3.{` `}  <a href="https://sa-tied.wider.unu.edu/article/does-south-africas-srd-grant-need-a-major-overhaul"> 
+Does South Africa's SRD grant need a major overhaul? </a>  -  
+<a href="https://www.linkedin.com/in/maya-goldman-2226a019/" > Maya Goldman </a>,
+  <a href="https://www.linkedin.com/in/brynde-kreft-170090196/" > Brynde Kreft </a> and Ntuthuko Hlela </h4>
+
+
+<h4>4.{` `}
 <a href="https://www.wider.unu.edu/publication/tax-financing-options-new-social-protection-instruments"> 
 Tax financing options for new social protection instruments </a>  -  <a href="https://www.linkedin.com/in/maya-goldman-2226a019/" > Maya Goldman </a>  and Ntuthuko Hlela 
 </h4>
 
-
-<h4 style={{paddingLeft: widthx, fontFamily: 'Fira Sans'}}> 3.
+<h4> 5.{` `}
 <Link to='/Competency' > Competency </Link>  - My approach to competency.
 </h4>
 
-<h4 style={{paddingLeft: widthx, fontFamily: 'Fira Sans'}}> 4.
+
+<h4> 6.{` `}
 <Link to='/Python' > Python Bot  </Link> - Creating a bot using the Difflib module.
 </h4>
 
-<h4 style={{paddingLeft: widthx, fontFamily: 'Fira Sans'}}> 5. 
+<h4> 7.{` `}
   <a href="https://play.google.com/store/apps/details?id=org.infact.myapp"> Infact </a>
  - A simple app I created to keep my curiosity sated. It is only available on the Google Play Store. 
 </h4>
 
-<h4 style={{paddingLeft: widthx, fontFamily: 'Fira Sans'}}> 6.
+
+<h4> 8.{` `}
 <Link to='/React Native Component' > Dynamically creating React Native Components </Link> - An efficient way of creating multiple components in React Native.
 </h4>
 
 
-<h1 style={{paddingLeft: widthx, fontFamily: 'Fira Sans', color: 'GrayText'}}> 2023 </h1>
+<h1 style={{fontFamily: 'Fira Sans', color: 'GrayText'}}> 2023 </h1>
 
-<h4 style={{paddingLeft: widthx, fontFamily: 'Fira Sans'}}> 7.
+<h4> 9.{` `}
 <a href="https://mbrg.bsg.ox.ac.uk/sites/default/files/2022-11/SRD-granttargetingjobsearch_0.pdf"> 
 Proposal for the extension, redesign and repurposing of the SRD for the  twin goals of poverty and  unemployment reduction </a>
 
@@ -110,11 +136,8 @@ Ntuthuko Hlela,
 <a href="https://mbrg.bsg.ox.ac.uk/person/aliya-chikte#:~:text=Aliya%20is%20a%20Research%20Associate%20at%20J-PAL" > Aliya Chikte </a>,
 <a href="https://www.linkedin.com/in/ingrid-woolard-bba27244/" > Ingrid Woolard </a> and
 <a href="https://www.linkedin.com/in/murray-leibbrandt-36416513/" > Murray Leibbrandt </a>
-
-
-
 </h4>
-
+</div>
 
 
 

@@ -37,10 +37,7 @@ Current Positions:
 1. Research Associate - Abdul Latif Jameel Poverty Action Lab (J-PAL)
 </p>
 <p>
-2. Junior Consultant -  World Bank
-</p>
-<p>
-3. Economic Research Assistant - Maya Goldman 
+2. Economic Research Assistant - Maya Goldman 
 </p>
 
 <h3>
@@ -48,18 +45,21 @@ Past Activities/Positions
 </h3>
 
 <p>
-1. Economic Researcher - Southern Africa Labour And Development Research Unit (SALDRU)
+1. Junior Economic Consultant - World Bank
 </p>
 <p>
-2. Quantitative Methods in Economics Tutor - University of Cape Town 
+2. Economic Researcher - Southern Africa Labour And Development Research Unit (SALDRU)
 </p>
-3. Economics Tutor -  University of KwaZulu Natal
 <p>
-4. Economics Tutor - South African Institute Of Charted Accountants (SAICA) Thuthuka Program
+3. Quantitative Methods in Economics Tutor - University of Cape Town 
+</p>
+4. Economics Tutor -  University of KwaZulu Natal
+<p>
+5. Economics Tutor - South African Institute Of Charted Accountants (SAICA) Thuthuka Program
 </p> 
 
 <h3>
-(Formal) Education:
+(Selected) Education/Training :
 </h3>
 
 <p>
@@ -76,6 +76,10 @@ Past Activities/Positions
 
 <p>
  3. Bachelor of Art in Economics - University of KwaZulu Natal (graduated Summa Cum Laude)
+ </p>
+
+ <p>
+ 3.Applied Machine Learning in Python Course - University of Michigan (via Coursera)
  </p>
 
 <h3>
@@ -121,16 +125,18 @@ Awards
 Projects
 </h3>
 <p>
-1. South African Presidency Advisory Team -  I am one of the economists working with the South African Presidency to improve the effectiveness of the  South African Social Relief of Distress Grant (SRD Grant) (Kate Orkin, Maya Goldman, Brynde Kreft,  Ntuthuko Hlela, Ingrid Woolard, and Murray Leibbrandt)  - Ongoing
+1. Tax financing options for new social protection instruments  (Maya Goldman and Ntuthuko Hlela):  2024 
 </p>
 
 <p>
-2. Tax financing options for new social protection instruments  (Maya Goldman and Ntuthuko Hlela) - Ongoing 
+2. The Impact of Fiscal Policy on the Income Distribution in Côte d’Ivoire: 2018 (Maya Goldman, Ian Houts, Ntuthuko Hlela, Eduardo A. Malásquez 1 and Oscar Barriga-Cabanillas):  2022 - 2024
 </p>
 
 <p>
-3. The Impact of Fiscal Policy on the Income Distribution in Côte d’Ivoire: 2018 (Maya Goldman, Ian Houts, Ntuthuko Hlela, Eduardo A. Malásquez 1 and Oscar Barriga-Cabanillas) - Ongoing
+3. South African Presidency Advisory Team -  I am one of the economists working with the South African Presidency to improve the effectiveness of the  South African Social Relief of Distress Grant (SRD Grant) (Kate Orkin, Maya Goldman, Brynde Kreft,  Ntuthuko Hlela, Ingrid Woolard, and Murray Leibbrandt): 2022 - 2024
 </p>
+
+
 
 
 </div>
