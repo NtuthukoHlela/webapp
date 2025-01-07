@@ -6,6 +6,7 @@ import MarkManson from './Manson_not_giving_a_fuck.js';
 import Ntuthuko from './ntuthuko.js'
 import React_component from './React_Component_algo.js'
 import Notes from './notes_toself.js'
+import CNN from "./Convolutional Neural Network.js"
 
 
 export default function App() {
@@ -43,6 +44,11 @@ export default function App() {
 <Route
     path = "/Notes" element = {<Notes/>}>
 </Route>
+
+<Route
+    path = "/Convolutional Neural Network" element = {<CNN/>}>
+</Route>
+
 
 
   

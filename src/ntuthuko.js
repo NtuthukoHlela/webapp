@@ -27,6 +27,8 @@ export default function Ntuthuko () {
 
 <h2 style= {generalStyle}> Ntuthuko Hlela (pronounced: Ntu-thu-ko) </h2>
 
+
+
 <div style={{textAlign: "justify", paddingRight:widthx, paddingLeft: widthx}}>
 
 <h3>
@@ -36,8 +38,13 @@ Current Positions:
 <p>
 1. Research Associate - Abdul Latif Jameel Poverty Action Lab (J-PAL)
 </p>
+
 <p>
-2. Economic Research Assistant - Maya Goldman 
+1. Data Analyst - Children's Institute at University of Cape Town
+</p>
+
+<p>
+3. Economic Research Assistant - Maya Goldman 
 </p>
 
 <h3>

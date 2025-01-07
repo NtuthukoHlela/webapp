@@ -62,10 +62,21 @@ I like being at the forefront of research, and being deeply engaged in technical
 </p>
         <hr/> 
   
+ <h1 style={{paddingLeft: widthx, fontFamily: 'Fira Sans', color: 'GrayText'}}>2025</h1>
+
+ <div style={{paddingLeft: widthx, fontFamily: 'Fira Sans'}}>
+
+
+ <h4>1.{` `} 
+<Link to='/Convolutional Neural Network' > Convoutional Neural Network </Link>  - A simple Deep Learning model that classifies knives and Pistols
+</h4>
+
+</div>
+
  <h1 style={{paddingLeft: widthx, fontFamily: 'Fira Sans', color: 'GrayText'}}>2024</h1>
 
+ <div style={{paddingLeft: widthx, fontFamily: 'Fira Sans'}}>
 
-<div style={{paddingLeft: widthx, fontFamily: 'Fira Sans'}}>
 
 
 <h4> 1.{` `}
