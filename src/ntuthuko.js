@@ -3,7 +3,7 @@ import { Helmet } from "react-helmet";
 let generalStyle = {
     color: "black",
     padding: 24,
-    fontFamily: "Sans-Serif",
+    fontFamily: " -apple-system",
     textAlign: "center"
   }
 
@@ -17,7 +17,7 @@ let generalStyle = {
 export default function Ntuthuko () {
     return (
 <>
-<header style = {{backgroundColor: 'black', color: 'white', height: heighty, margin: 5, fontFamily: 'Fira Sans'}}> <a href = "https://ntuthukohlela.github.io/webapp/#/" style={{margin: 8, color: 'white', textDecoration: 'none'}}>cd ..</a> </header>
+<header style = {{backgroundColor: 'black', color: 'white', height: heighty, margin: 5, fontFamily: ' -apple-system'}}> <a href = "https://ntuthukohlela.github.io/webapp/#/" style={{margin: 8, color: 'white', textDecoration: 'none'}}>Home</a> </header>
 
 
 <Helmet>  
@@ -25,11 +25,11 @@ export default function Ntuthuko () {
   </Helmet>   
 
 
-<h2 style= {generalStyle}> Ntuthuko Hlela (pronounced: Ntu-thu-ko) </h2>
+<h2 style= {generalStyle}> Ntuthuko Hlela (pronounced: Ntu-too-koh) </h2>
 
 
 
-<div style={{textAlign: "justify", paddingRight:widthx, paddingLeft: widthx}}>
+<div style={{textAlign: "justify", paddingRight:widthx, paddingLeft: widthx, fontFamily: "-apple-system"}}>
 
 <h3>
 Current Positions: 
@@ -40,7 +40,7 @@ Current Positions:
 </p>
 
 <p>
-1. Data Analyst - Children's Institute at University of Cape Town
+2. Data Analyst - Children's Institute at the University of Cape Town
 </p>
 
 <p>
@@ -66,7 +66,7 @@ Past Activities/Positions
 </p> 
 
 <h3>
-(Selected) Education/Training :
+Education/Training (Selected):
 </h3>
 
 <p>
@@ -86,11 +86,11 @@ Past Activities/Positions
  </p>
 
  <p>
- 3.Applied Machine Learning in Python Course - University of Michigan (via Coursera)
+ 4.Applied Machine Learning in Python Course - University of Michigan (via Coursera)
  </p>
 
 <h3>
-Awards
+Awards (Selected)
 </h3>
 <p>
 1. Erasmus Mundus Scholarship - University of Paris Pantheon Sorbonne (2022-2023)
@@ -132,19 +132,11 @@ Awards
 Projects
 </h3>
 <p>
-1. Tax financing options for new social protection instruments  (Maya Goldman and Ntuthuko Hlela):  2024 
+1. InFact - A simple mobile application that shows facts, jokes and interesting questions: <a href="https://play.google.com/store/apps/details?id=org.infact.myapp"> Google Play Link </a>
 </p>
-
 <p>
-2. The Impact of Fiscal Policy on the Income Distribution in Côte d’Ivoire: 2018 (Maya Goldman, Ian Houts, Ntuthuko Hlela, Eduardo A. Malásquez 1 and Oscar Barriga-Cabanillas):  2022 - 2024
+  2. Job and Degree Search Helper - In progress: <a href="https://searchhelper-145058681244.africa-south1.run.app/">Link</a>
 </p>
-
-<p>
-3. South African Presidency Advisory Team -  I am one of the economists working with the South African Presidency to improve the effectiveness of the  South African Social Relief of Distress Grant (SRD Grant) (Kate Orkin, Maya Goldman, Brynde Kreft,  Ntuthuko Hlela, Ingrid Woolard, and Murray Leibbrandt): 2022 - 2024
-</p>
-
-
-
 
 </div>
 </>

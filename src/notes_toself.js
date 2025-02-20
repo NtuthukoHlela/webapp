@@ -3,7 +3,7 @@ import { Helmet } from "react-helmet";
 let generalStyle = {
     color: "black",
     padding: 24,
-    fontFamily: "Sans-Serif",
+    fontFamily: " -apple-system",
     textAlign: "center"
   }
 
@@ -17,7 +17,7 @@ let generalStyle = {
 export default function Notes () {
     return (
 <>
-<header style = {{backgroundColor: 'black', color: 'white', height: heighty, margin: 5, fontFamily: 'Fira Sans'}}> <a href = "https://ntuthukohlela.github.io/webapp/#/" style={{margin: 8, color: 'white', textDecoration: 'none'}}>cd ..</a> </header>
+<header style = {{backgroundColor: 'black', color: 'white', height: heighty, margin: 5, fontFamily: ' -apple-system'}}> <a href = "https://ntuthukohlela.github.io/webapp/#/" style={{margin: 8, color: 'white', textDecoration: 'none'}}>Home</a> </header>
 
 
 <Helmet>  
@@ -27,7 +27,7 @@ export default function Notes () {
 
 <h2 style= {generalStyle}> Principles: Things to Remember   </h2>
 
-<div style={{textAlign: "justify", paddingRight:widthx, paddingLeft: widthx}}>
+<div style={{textAlign: "justify", paddingRight:widthx, paddingLeft: widthx, fontFamily: " -apple-system"}}>
 <ul>
 <li>When you feel stuck, revisit the problem definition and try to visualize the desired outcome. Always ensure that you understand what you are trying to solve and how the solution should look. </li>
 <li> Do not be too busy for everything. </li>

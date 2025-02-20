@@ -3,7 +3,7 @@ import { Helmet } from "react-helmet";
 let generalStyle = {
     color: "black",
     padding: 24,
-    fontFamily: "Sans-Serif",
+    fontFamily: " -apple-system",
     textAlign: "center"
   }
 
@@ -23,12 +23,12 @@ export default function competencyPage () {
   <title>Competency</title>
   </Helmet>   
 
-  <header style = {{backgroundColor: 'black', color: 'white', height: heighty, margin: 5, fontFamily: 'Fira Sans'}}> <a href = "https://ntuthukohlela.github.io/webapp/#/" style={{margin: 8, color: 'white', textDecoration: 'none'}}> cd ..</a> </header>
+  <header style = {{backgroundColor: 'black', color: 'white', height: heighty, margin: 5, fontFamily: ' -apple-system'}}> <a href = "https://ntuthukohlela.github.io/webapp/#/" style={{margin: 8, color: 'white', textDecoration: 'none'}}>Home</a> </header>
 
 
 <h1 style= {generalStyle}> <b> Becoming competent </b> </h1>
 
-<div style={{textAlign: "justify", paddingRight:widthx, paddingLeft: widthx}}>
+<div style={{textAlign: "justify", paddingRight:widthx, paddingLeft: widthx, fontFamily: "-apple-system"}}>
 
  <p>  This article aims to outline concrete ways of approaching the road to competency. 
 I have always been curious, knowing more excites me, I see competency as ultimate success. 

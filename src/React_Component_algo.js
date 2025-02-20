@@ -4,7 +4,7 @@ import video from './react_video.mp4'
 let generalStyle = {
     color: "black",
     padding: 24,
-    fontFamily: "Sans-Serif",
+    fontFamily: " -apple-system",
     textAlign: "center"
   }
 
@@ -23,13 +23,13 @@ export default function Ntuthuko () {
   <title>React Native Components</title>
 </Helmet>   
 
-<header style = {{backgroundColor: 'black', color: 'white', height: heighty, margin: 5, fontFamily: 'Fira Sans'}}> <a href = "https://ntuthukohlela.github.io/webapp/#/" style={{margin: 8, color: 'white', textDecoration: 'none'}}> cd ..</a> </header>
+<header style = {{backgroundColor: 'black', color: 'white', height: heighty, margin: 5, fontFamily: ' -apple-system'}}> <a href = "https://ntuthukohlela.github.io/webapp/#/" style={{margin: 8, color: 'white', textDecoration: 'none'}}> Home</a> </header>
 
 
 
  <h2 style  = {generalStyle}> Dynamically Creating React Native Components </h2>
 
- <div style={{textAlign: "justify", paddingRight:widthx, paddingLeft: widthx}}>
+ <div style={{textAlign: "justify", paddingRight:widthx, paddingLeft: widthx, fontFamily: " -apple-system"}}>
 
  <p>
 The purpose of this article is to demonstrate how to create React Native Components dynamically. 

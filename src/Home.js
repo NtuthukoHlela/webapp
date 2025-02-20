@@ -17,10 +17,13 @@ import { useState, useEffect } from "react"
 
 
 
-
 export default function Home () {
+
+ /*
  let [quote, setQuote] = useState(" for a programming quote.")
  let [press, setPress] = useState("Press")
+
+
 
 
 
@@ -37,6 +40,19 @@ export default function Home () {
 })
 }
 
+  // Button for the Programming qoute API
+ 
+<p style={{textAlign: "justify", paddingRight: widthx, paddingLeft: widthx, fontFamily: ' Courier New'}}> 
+ <button onClick= {() =>
+  programming_quote ()
+
+        }> {press}  </button>
+          {quote}
+</p>
+
+*/
+
+
 
     return (
 <>
@@ -45,109 +61,93 @@ export default function Home () {
   </Helmet> 
 
 
-<h3 style={{textAlign: "center", paddingRight: widthx, paddingLeft: widthx, fontFamily: 'Fira Sans'}}> 
+<h3 style={{textAlign: "center", paddingRight: widthx, paddingLeft: widthx, fontFamily: '-apple-system'}}> 
 Ntuthuko Hlela <button > <Link to='/ntuthuko' style={{textDecoration: "none", color: 'black', boxShadow: 'inherit'}}> About Page </Link> </button>
 </h3>
 
-<h4 style={{textAlign: "justify", paddingRight: widthx, paddingLeft: widthx, fontFamily: 'Fira Sans'}}> 
+<p style={{textAlign: "justify", paddingRight: widthx, paddingLeft: widthx, fontFamily: '-apple-system'}}> 
 I like being at the forefront of research, and being deeply engaged in technical work, especially when the goal is to solve real-world problems, makes me happy.
  Also, I love coding!    
-</h4>
-<p style={{textAlign: "justify", paddingRight: widthx, paddingLeft: widthx, fontFamily: 'Fira Sans'}}> 
- <button onClick= {() =>
-  programming_quote ()
-
-        }> {press}  </button>
-          {quote}
 </p>
         <hr/> 
   
- <h1 style={{paddingLeft: widthx, fontFamily: 'Fira Sans', color: 'GrayText'}}>2025</h1>
+ <h2 style={{paddingLeft: widthx, fontFamily: '-apple-system', color: 'GrayText'}}>2025</h2>
 
- <div style={{paddingLeft: widthx, fontFamily: 'Fira Sans'}}>
+ <div style={{paddingLeft: widthx, fontFamily: '-apple-system'}}>
 
 
- <h4>1.{` `} 
-<Link to='/Convolutional Neural Network' > Convoutional Neural Network </Link>  - A simple Deep Learning model that classifies knives and Pistols
-</h4>
+ <p> <label> <b>16/02: </b></label> {``}
+<a href="https://searchhelper-145058681244.africa-south1.run.app/"> 
+Findx - A job search tool to help people easily browse government job adverts (more features to come). (Beta) </a>
+</p>
+
+
+
+ <p> <b>07/01: </b> {` `} 
+<Link to='/Convolutional Neural Network' > Convolutional Neural Network </Link>  - A simple Deep Learning model that classifies knives and pistols.
+</p>
+
 
 </div>
 
- <h1 style={{paddingLeft: widthx, fontFamily: 'Fira Sans', color: 'GrayText'}}>2024</h1>
+ <h2 style={{paddingLeft: widthx, fontFamily: '-apple-system', color: 'GrayText'}}>2024</h2>
 
- <div style={{paddingLeft: widthx, fontFamily: 'Fira Sans'}}>
+ <div style={{paddingLeft: widthx, fontFamily: ' -apple-system'}}>
 
 
 
-<h4> 1.{` `}
+
+
+ <p><b>03/11:</b>{` `} 
+<Link to='/Notes' > Principles </Link>  - Things to remember
+</p>
+
+
+
+<p><b>30/10: </b>{` `}  <a href="https://sa-tied.wider.unu.edu/article/does-south-africas-srd-grant-need-a-major-overhaul"> 
+Does South Africa's SRD grant need a major overhaul? </a>   
+   </p>
+
+
+
+<p> <b>30/09:</b> {`   `}
+<a href="https://www.wider.unu.edu/publication/tax-financing-options-new-social-protection-instruments"> 
+Tax financing options for new social protection instruments </a> 
+</p>
+
+<p> <b>23/09:</b> {` `}
+<Link to='/Competency' > Competency </Link>  - My approach to competency.
+</p>
+
+<p> <b>18/09: </b>{` `}
 <a href="https://www.afd.fr/sites/afd/files/2024-09-12-18-30/SRD_extension_redesign_and_repurposing_for_poverty_reduction.pdf"> 
 Proposal for the extension, redesign and repurposing of the SRD for the  twin goals of poverty and  unemployment reduction (Second Version) </a>
-
-  -  <a href="https://www.linkedin.com/in/kate-orkin-853a0665/" > Kate Orkin </a>,
-  <a href="https://www.linkedin.com/in/maya-goldman-2226a019/" > Maya Goldman </a>,
-  <a href="https://www.linkedin.com/in/brynde-kreft-170090196/" > Brynde Kreft, </a> Desmond Fairal,
-  
-  <a style = {{marginLeft: 5}} href="https://www.linkedin.com/in/alice-cahill-22a0671b4/" > Alice Cahill </a>,
-Ntuthuko Hlela,
-<a href="https://mbrg.bsg.ox.ac.uk/person/aliya-chikte#:~:text=Aliya%20is%20a%20Research%20Associate%20at%20J-PAL" > Aliya Chikte </a>,
-<a href="https://www.linkedin.com/in/ingrid-woolard-bba27244/" > Ingrid Woolard </a> and
-<a href="https://www.linkedin.com/in/murray-leibbrandt-36416513/" > Murray Leibbrandt </a>
-</h4>
+</p>
 
 
- <h4>2.{` `} 
-<Link to='/Notes' > Principles </Link>  - Things to remember
-</h4>
-
-
-
-<h4 >3.{` `}  <a href="https://sa-tied.wider.unu.edu/article/does-south-africas-srd-grant-need-a-major-overhaul"> 
-Does South Africa's SRD grant need a major overhaul? </a>  -  
-<a href="https://www.linkedin.com/in/maya-goldman-2226a019/" > Maya Goldman </a>,
-  <a href="https://www.linkedin.com/in/brynde-kreft-170090196/" > Brynde Kreft </a> and Ntuthuko Hlela </h4>
-
-
-<h4>4.{` `}
-<a href="https://www.wider.unu.edu/publication/tax-financing-options-new-social-protection-instruments"> 
-Tax financing options for new social protection instruments </a>  -  <a href="https://www.linkedin.com/in/maya-goldman-2226a019/" > Maya Goldman </a>  and Ntuthuko Hlela 
-</h4>
-
-<h4> 5.{` `}
-<Link to='/Competency' > Competency </Link>  - My approach to competency.
-</h4>
-
-
-<h4> 6.{` `}
-<Link to='/Python' > Python Bot  </Link> - Creating a bot using the Difflib module.
-</h4>
-
-<h4> 7.{` `}
-  <a href="https://play.google.com/store/apps/details?id=org.infact.myapp"> Infact </a>
- - A simple app I created to keep my curiosity sated. It is only available on the Google Play Store. 
-</h4>
-
-
-<h4> 8.{` `}
+<p> <b>17/08:</b> {` `}
 <Link to='/React Native Component' > Dynamically creating React Native Components </Link> - An efficient way of creating multiple components in React Native.
-</h4>
+</p>
+
+<p> <b>15/08:</b> {` `}
+<Link to='/Python' > Python Bot  </Link> - Creating a bot using the Difflib module.
+</p>
 
 
-<h1 style={{fontFamily: 'Fira Sans', color: 'GrayText'}}> 2023 </h1>
 
-<h4> 9.{` `}
+<h1 style={{fontFamily: '-apple-system', color: 'GrayText'}}> 2023 </h1>
+<p> <b>04/11: </b> {` `}
+  <a href="https://play.google.com/store/apps/details?id=org.infact.myapp"> InFact </a>
+ - A simple app I created to keep my curiosity sated. It is only available on the Google Play Store. 
+</p>
+
+
+<h1 style={{fontFamily: '-apple-system', color: 'GrayText'}}> 2022 </h1>
+
+<p> <b>22/11:</b> {` `}
 <a href="https://mbrg.bsg.ox.ac.uk/sites/default/files/2022-11/SRD-granttargetingjobsearch_0.pdf"> 
-Proposal for the extension, redesign and repurposing of the SRD for the  twin goals of poverty and  unemployment reduction </a>
-
-  -  <a href="https://www.linkedin.com/in/kate-orkin-853a0665/" > Kate Orkin </a>,
-  <a href="https://www.linkedin.com/in/maya-goldman-2226a019/" > Maya Goldman </a>,
-  <a href="https://www.linkedin.com/in/brynde-kreft-170090196/" > Brynde Kreft, </a> Desmond Fairal,
-  
-  <a style = {{marginLeft: 5}} href="https://www.linkedin.com/in/alice-cahill-22a0671b4/" > Alice Cahill </a>,
-Ntuthuko Hlela,
-<a href="https://mbrg.bsg.ox.ac.uk/person/aliya-chikte#:~:text=Aliya%20is%20a%20Research%20Associate%20at%20J-PAL" > Aliya Chikte </a>,
-<a href="https://www.linkedin.com/in/ingrid-woolard-bba27244/" > Ingrid Woolard </a> and
-<a href="https://www.linkedin.com/in/murray-leibbrandt-36416513/" > Murray Leibbrandt </a>
-</h4>
+Proposal for the extension, redesign and repurposing of the SRD for the  twin goals of poverty and  unemployment reduction</a>
+</p>
 </div>
 
 

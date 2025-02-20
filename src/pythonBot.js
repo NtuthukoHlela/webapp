@@ -4,7 +4,7 @@ import program_image from "./Program_Structure.png"
 let generalStyle = {
     color: "black",
     padding: 24,
-    fontFamily: "Sans-Serif",
+    fontFamily: " -apple-system",
     textAlign: "center"
   }
 
@@ -25,12 +25,12 @@ export default function PythonBot () {
   <title> Python Bot </title>
   </Helmet>   
 
-  <header style = {{backgroundColor: 'black', color: 'white', height: heighty, margin: 5, fontFamily: 'Fira Sans'}}> <a href = "https://ntuthukohlela.github.io/webapp/#/" style={{margin: 8, color: 'white', textDecoration: 'none'}}> cd ..</a> </header>
+  <header style = {{backgroundColor: 'black', color: 'white', height: heighty, margin: 5, fontFamily: ' -apple-system'}}> <a href = "https://ntuthukohlela.github.io/webapp/#/" style={{margin: 8, color: 'white', textDecoration: 'none'}}> Home</a> </header>
 
 
 <h1 style= {generalStyle}> <b> Creating a python bot </b> </h1>
 
-<div style={{textAlign: "justify", paddingRight:widthx, paddingLeft: widthx}}>
+<div style={{textAlign: "justify", paddingRight:widthx, paddingLeft: widthx, fontFamily: " -apple-system"}}>
 <p>
 The rise of artificial intelligence has inspired a lot of programmers to create chatbots. A chatbot is simply a software program that simulates human conversation. The goal of this article is to show how to create a simple chatbot using python. 
 </p>

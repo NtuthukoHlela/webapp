@@ -12,7 +12,7 @@ import CNN_diagram from "./Neural Network.png"
 let generalStyle = {
     color: "black",
     padding: 24,
-    fontFamily: "Sans-Serif",
+    fontFamily: " -apple-system",
     textAlign: "center"
   }
 
@@ -33,22 +33,25 @@ export default function CNN () {
   <title> Convolutional Neural Network:   </title>
   </Helmet>   
 
-  <header style = {{backgroundColor: 'black', color: 'white', height: heighty, margin: 5, fontFamily: 'Fira Sans'}}> <a href = "https://ntuthukohlela.github.io/webapp/#/" style={{margin: 8, color: 'white', textDecoration: 'none'}}> cd ..</a> </header>
+  <header style = {{backgroundColor: 'black', color: 'white', height: heighty, margin: 5, fontFamily: ' -apple-system'}}> <a href = "https://ntuthukohlela.github.io/webapp/#/" style={{margin: 8, color: 'white', textDecoration: 'none'}}> Home</a> </header>
 
 
 <h1 style= {generalStyle}> <b> Training a Convolutional Neural Network </b> </h1>
 
-<div style={{textAlign: "justify", paddingRight:widthx, paddingLeft: widthx}}>
+<div style={{textAlign: "justify", paddingRight:widthx, paddingLeft: widthx, fontFamily: " -apple-system"}}>
 
 <p>
-The purpose of this article is to show how to train a Deep Learning model. More specifically, I will train a gun-versus-knife (binary) classifier using the 2D Convolutional Neural Network (CNN) in the Keras framework. The fundamental goal of the model will be to predict if a picture is showing a gun or a knife. To follow this article, you should have at least a basic understanding of Python.
+The purpose of this blog post is to show how to train a Deep Learning model. More specifically, I will train a gun-versus-knife (binary) classifier using the 2D Convolutional Neural Network (CNN) in the Keras framework. The fundamental goal of the model will be to predict if a picture is showing a gun or a knife. To follow this article, you should have at least a basic understanding of Python.
 </p>
 
 <p>
 The following CNN can be diagramatically depicted as follows (except that we also have flattening layer - which is essentially irrelevant when one uses a Global Max Pooling layer after the Conv2d layer). It is also worth noting that our model has a 1 output neuron/node not three:
 </p>
 
+<div style={{overflow: "scroll"}}>  
+
 <img style={{marginLeft:"24%"}} src= {CNN_diagram} alt="Program"/>
+</div>
 <p> Source: (Sharma, 2024) </p>
 
 
@@ -70,8 +73,7 @@ import os
 from PIL import Image
 import matplotlib.pyplot as plt
 from sklearn.model_selection import train_test_split
-
-    `}</pre>
+`}</pre>
 </div>
 
 
@@ -138,7 +140,7 @@ Using the os module, I get all the pictures in the folder and then count them. T
 </p>
 
 <p>
-Next, I resize the images because not all images have the same size. This is followed by converting the image into an array so that the model can read the patterns. I then normalize each image array by dividing by 255 (which scales the values between 0 and 1 instead of 0 and 255—this makes it easier for the model to learn patterns). The reshape line reshapes the picture into 3D so that it can be processed by the model. One might ask why we need to represent the picture in 3D when we are using a 2D convolutional neural network. The third dimension is simply the depth of the image. Normally, one would have three channels (Red, Green, and Blue). However, since we converted the images to grayscale, as explained above, the depth is now one. In our case, the image will be represented by a 3D array, with the third dimension indicating the grayscale channel.
+Next, I resize the images because not all images have the same size. This is followed by converting the image into an array so that the model can read the patterns. I then normalize each image array by dividing by 255 (which scales the values such that they are between 0 and 1 instead of 0 and 255—this makes it easier for the model to learn patterns). The reshape line reshapes the picture into 3D so that it can be processed by the model. One might ask why we need to represent the picture in 3D when we are using a 2D convolutional neural network. The third dimension is simply the depth of the image. Normally, one would have three channels (Red, Green, and Blue). However, since we grayscaled the images, as explained above, the depth is now one. In our case, the image will be represented by a 3D array, with the third dimension indicating the grayscale channel.
 The except block is there to account for cases where the image fails to open, resize, or reshape.
 </p>
 
@@ -169,7 +171,7 @@ return images_array    `}</pre>
 
 
 <p>
-I call the function twice: once for the knives folder and once for the pistols folder. Then, I create the output variables (y_knives_array and y_pistols_array), which have only one dimension. Since this is a binary classification, I label knife images as zero and pistol images as one. I then concatenate and permute the arrays so that we have one array for all inputs (knives and pistol images) and one array for the outputs (zeros and ones). The permutation step simply shuffles the images (and their output values). The last line of code splits the data into training and test data. As is common in the machine learning community, I use an 80/20 split, where 80% of the data is used for training and the rest for testing/evaluation. The random_state variable ensures the model is replicable.
+I call the function twice: once for the knives folder and once for the pistols folder. Then, I create the output variables (y_knives_array and y_pistols_array), which have only one dimension. Since this is a binary classification, I label knife images as zero and pistol images as one. I then concatenate and permute the arrays so that we have one array for all inputs (knives and pistol images) and one array for the outputs (zeros and ones). The permutation step simply shuffles the images (and their output values). The last line of code splits the data into training and test data. As is common in the machine learning community, I use an 80/20 split, where 80% of the data is used for training and the rest for testing/evaluation. The random_state variable ensures the model is reproducable.
 </p>
 
 <div style={{backgroundColor: "lightgray", color: "black"}}>  
@@ -195,7 +197,7 @@ X_train, X_test, y_train, y_test = train_test_split(X_array, y_array,train_size=
 
 
 <p>
-Now that the data has been preprocessed, I train the model. Before diving into the code, it is worth noting that my goal here is not to provide a state-of-the-art model but to show how I can start training the neural network.
+Now that the data has been preprocessed, I train the model. Before diving into the code, it is worth noting that my goal here is not to provide a state-of-the-art model but to show how one can train a neural network.
 </p>
 
 <div style={{backgroundColor: "lightgray", color: "black"}}>  
@@ -224,7 +226,7 @@ I first instantiate my model using the Keras Sequential class (there are other w
 The second layer—one of the most important layers in the stack—is the Conv2D (2D Convolution) layer. Filters determine how many patterns/features the model should look for in each pixel. The kernel size specifies the size of the area to analyze at a time (e.g., 2x2 pixels). Strides determine how far the filter moves from one position to the next. In our case, the model moves by two pixels horizontally and two pixels vertically. If you start with a 10x10 image, you end up with a 5x5 output. Lastly, the activation function (ReLU) introduces non-linearity, which is essential because real-world data is non-linear.
 </p>
 <p>
-The MaxPooling2D layer reduces the size of the array, thereby decreasing computational requirements while focusing on clearer patterns/features. Flattening converts the 2D data into a 1D array. The Dense layer is where most of the learning happens. It contains 200 neurons/nodes that process the input data and learn patterns extracted by the Conv2D layer. The final Dense layer is the output layer, which outputs a probability for binary classification. If the value is above 0.5, the model predicts the image is a gun; otherwise, it predicts a knife.
+The MaxPooling2D layer reduces the size of the array, thereby decreasing computational requirements. This, among other things, helps the model to focus on clearer/more important patterns/features. Flattening converts the 2D data into a 1D array. The Dense layer is where most of the learning happens. It contains 200 neurons/nodes that process the input data and learn patterns extracted by the Conv2D layer. The final Dense layer is the output layer, which outputs vector of probabilities. If the value/probability is above 0.5, the model predicts the image is a gun; otherwise, it predicts a knife.
 </p>
 
 <p>
@@ -260,14 +262,14 @@ binary accuracy:  0.7647058963775635
 
 
 <p>
-Then, I download two random pictures on the internet to classify. This is  the fun part (or the most excruciating part, dependending on your model’s performance). The following function simply preprocesses these images.
+Then, I download two random pictures from the internet to classify. This is  the fun part (or the most excruciating part, dependending on your model’s performance). The following function simply preprocesses these images.
 </p> 
 
 <img style={{width:"30%"}} src= {knife_test} alt="Program"  />
 
 <img style={{width:"30%", marginLeft:"30%"}} src= {pistol_test} alt="Program"  />
 
-<p> Function to preprocess these images and then classify:</p>
+<p> Function to preprocess these images and then classify them:</p>
 
 <div style={{backgroundColor: "lightgray", color: "black"}}>  
 <pre style= {{fontFamily: "monospace", overflow: "scroll"}}> {`
@@ -317,12 +319,13 @@ model_prediction("/content/Knife_test.jpeg")`}</pre>
 1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 20ms/step
 The following picture is a Knife with a probability of =>  [[0.9481707]]`}</pre>
 </div>
+
 <img style={{width:"30%"}} src= {knife_pred} alt="Program"/>
 
 
 
 <p>
-Despite being able to classify these pictures accurately, the model is still far from being the best. This is simply because it has not been fine-tuned. Future articles will explore how to create state-of-the-art models
+Despite being able to classify these pictures accurately, the model is still far from being the best. This is simply because it has not been fine-tuned. Also, it would benefit from adding a few more layers. Future blog posts will explore how to create state-of-the-art models
 </p>
 
 </div>
