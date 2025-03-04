@@ -70,7 +70,7 @@ Education/Training (Selected):
 </h3>
 
 <p>
-1. Master of Commerce Specializing in Economic Development - University of Cape Town  (Waiting for results)
+1. Master of Commerce Specializing in Economic Development - University of Cape Town  
 </p>
 
 <p>

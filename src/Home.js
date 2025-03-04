@@ -75,9 +75,14 @@ I like being at the forefront of research, and being deeply engaged in technical
 
  <div style={{paddingLeft: widthx, fontFamily: '-apple-system'}}>
 
+ <p> <label> <b>03/03: </b></label> {``}
+<a href="https://medium.com/@ntuthukohlela15/binary-classifier-accuracy-confusion-matrix-f1-score-roc-curve-and-auc-from-scratch-6b696ee978f0"> 
+Binary Classifier Accuracy, Confusion Matrix, F1 Score, ROC Curve and AUC From Scratch </a>
+</p>
+
 
  <p> <label> <b>16/02: </b></label> {``}
-<a href="https://searchhelper-145058681244.africa-south1.run.app/"> 
+<a href="https://searchhelper-145058681244.us-central1.run.app/"> 
 Findx - A job search tool to help people easily browse government job adverts (more features to come). (Beta) </a>
 </p>
 
@@ -135,14 +140,14 @@ Proposal for the extension, redesign and repurposing of the SRD for the  twin go
 
 
 
-<h1 style={{fontFamily: '-apple-system', color: 'GrayText'}}> 2023 </h1>
+<h2 style={{fontFamily: '-apple-system', color: 'GrayText'}}> 2023 </h2>
 <p> <b>04/11: </b> {` `}
   <a href="https://play.google.com/store/apps/details?id=org.infact.myapp"> InFact </a>
  - A simple app I created to keep my curiosity sated. It is only available on the Google Play Store. 
 </p>
 
 
-<h1 style={{fontFamily: '-apple-system', color: 'GrayText'}}> 2022 </h1>
+<h2 style={{fontFamily: '-apple-system', color: 'GrayText'}}> 2022 </h2>
 
 <p> <b>22/11:</b> {` `}
 <a href="https://mbrg.bsg.ox.ac.uk/sites/default/files/2022-11/SRD-granttargetingjobsearch_0.pdf"> 
