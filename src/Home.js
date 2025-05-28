@@ -75,6 +75,16 @@ I like being at the forefront of research, and being deeply engaged in technical
 
  <div style={{paddingLeft: widthx, fontFamily: '-apple-system'}}>
 
+ <p> <b>28/05: </b> {` `} 
+<Link to='/Discipline' > Be Disciplined. </Link> 
+</p>
+
+
+ <p> <label> <b>21/04: </b></label> {``}
+<a href="https://ntuthukohlela.pythonanywhere.com/"> 
+Personal Dashboard: Everything that matters in one view (Work in Progress 🔧🚧)  </a>
+</p>
+
  <p> <label> <b>03/03: </b></label> {``}
 <a href="https://medium.com/@ntuthukohlela15/binary-classifier-accuracy-confusion-matrix-f1-score-roc-curve-and-auc-from-scratch-6b696ee978f0"> 
 Binary Classifier Accuracy, Confusion Matrix, F1 Score, ROC Curve and AUC From Scratch </a>
@@ -83,7 +93,7 @@ Binary Classifier Accuracy, Confusion Matrix, F1 Score, ROC Curve and AUC From S
 
  <p> <label> <b>16/02: </b></label> {``}
 <a href="https://searchhelper-145058681244.us-central1.run.app/"> 
-Findx - A job search tool to help people easily browse government job adverts (more features to come). (Beta) </a>
+Findx - A job search tool to help people easily browse government job adverts (more features to come). </a>
 </p>
 
 

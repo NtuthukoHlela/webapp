@@ -86,7 +86,12 @@ Education/Training (Selected):
  </p>
 
  <p>
- 4.Applied Machine Learning in Python Course - University of Michigan (via Coursera)
+ 4. Mathematics for Machine Learning: Linear Algebra Course - Imperial College London (via Coursera)
+ </p>
+
+
+ <p>
+ 5. Applied Machine Learning in Python Course - University of Michigan (via Coursera)
  </p>
 
 <h3>

@@ -7,6 +7,7 @@ import Ntuthuko from './ntuthuko.js'
 import React_component from './React_Component_algo.js'
 import Notes from './notes_toself.js'
 import CNN from "./Convolutional Neural Network.js"
+import Discipline from "./be_disciplined.js"
 
 
 export default function App() {
@@ -48,6 +49,11 @@ export default function App() {
 <Route
     path = "/Convolutional Neural Network" element = {<CNN/>}>
 </Route>
+
+<Route
+    path = "/Discipline" element = {<Discipline/>}>
+</Route>
+
 
 
 
