@@ -75,6 +75,18 @@ I like being at the forefront of research, and being deeply engaged in technical
 
  <div style={{paddingLeft: widthx, fontFamily: '-apple-system'}}>
 
+ <p> <label> <b>28/09: </b></label> {``}
+<a href="https://pypi.org/project/sa-tenders/0.0.6/"> 
+A Python library that makes it easy to fetch, process, and export South African government tender data.  </a>
+</p>
+
+
+ <p> <label> <b>11/07: </b></label> {``}
+<a href="https://www.govdocs.co.za/"> 
+GovDocs - A Fast and Smart SA Document Database  </a>
+</p>
+
+
  <p> <b>28/05: </b> {` `} 
 <Link to='/Discipline' > Be Disciplined. </Link> 
 </p>
@@ -82,7 +94,7 @@ I like being at the forefront of research, and being deeply engaged in technical
 
  <p> <label> <b>21/04: </b></label> {``}
 <a href="https://ntuthukohlela.pythonanywhere.com/"> 
-Personal Dashboard: Everything that matters in one view (Work in Progress 🔧🚧)  </a>
+Personal Dashboard: Everything that matters in one view </a>
 </p>
 
  <p> <label> <b>03/03: </b></label> {``}
