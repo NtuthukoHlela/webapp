@@ -190,11 +190,12 @@ Proposal for the extension, redesign and repurposing of the SRD for the  twin go
 <a href="https://mbrg.bsg.ox.ac.uk/sites/default/files/2022-11/SRD-granttargetingjobsearch_0.pdf"> 
 Proposal for the extension, redesign and repurposing of the SRD for the  twin goals of poverty and  unemployment reduction</a>
 </p>
+*/
 </div>
 
 <div></div>
 </>
-*/
+
 
     )}
 
