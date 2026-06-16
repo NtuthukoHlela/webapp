@@ -68,14 +68,14 @@ export default function Home () {
 Ntuthuko Hlela <button > <Link to='/ntuthuko' style={{textDecoration: "none", color: 'black', boxShadow: 'inherit'}}> About Page </Link> </button>
 </h3>
 
+
    <p> <label> <b>11/07: </b></label> {``}
 <a href="https://www.govdocs.co.za/"> 
 GovDocs - A Fast and Smart SA Document Database  </a>
 
+/*
 
 
-
-  /*
 </p>
 
 
@@ -190,13 +190,11 @@ Proposal for the extension, redesign and repurposing of the SRD for the  twin go
 <a href="https://mbrg.bsg.ox.ac.uk/sites/default/files/2022-11/SRD-granttargetingjobsearch_0.pdf"> 
 Proposal for the extension, redesign and repurposing of the SRD for the  twin goals of poverty and  unemployment reduction</a>
 </p>
-*/
 </div>
-
-
 
 <div></div>
 </>
+*/
 
     )}
 
